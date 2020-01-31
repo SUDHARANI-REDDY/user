@@ -49,6 +49,6 @@
         android:textColor="#666884"
         android:lineSpacingExtra="12sp"
         android:gravity="center_horizontal"
-        tools:text="Version 1.0"
+        android:text="Version 1.0"
         />
 </RelativeLayout>

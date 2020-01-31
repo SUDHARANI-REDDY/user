@@ -21,32 +21,38 @@ LinearLayout linearLayout1;
         linearLayout1.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               change();
+               fav();
             }
         } );
         linearLayout2.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                change();
+                genre();
             }
         } );
         linearLayout3.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                change2();
+                about();
             }
         } );
     }
-    public void change()
-    {
-        Intent intent;
-        intent = new Intent( this,Main2Activity.class);
-        startActivity( intent );
-    }
-    public void change2()
+    public void fav()
     {
         Intent intent;
         intent = new Intent( this,Main3Activity.class);
+        startActivity( intent );
+    }
+    public void genre()
+    {
+        Intent intent;
+        intent = new Intent( this,genre.class);
+        startActivity( intent );
+    }
+    public void about()
+    {
+        Intent intent;
+        intent = new Intent( this,Main2Activity.class);
         startActivity( intent );
     }
 }
