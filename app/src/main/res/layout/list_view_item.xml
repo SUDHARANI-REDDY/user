@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#666884"
+        android:lineSpacingExtra="12sp"
+        android:text="Show Name Here"
+        android:layout_marginLeft="16dp"
+        app:fontFamily="@font/poppins_semibold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:lineSpacingExtra="4sp"
+        android:text="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+        android:textColor="#9babcb"
+        android:textSize="10sp"
+        app:fontFamily="@font/poppins_medium" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:text="Unfollow"
+        android:paddingRight="35dp"
+        android:paddingLeft="35dp"
+        android:textColor="#eb2429"
+
+        android:background="@drawable/roundbutton"
+        app:fontFamily="@font/poppins_semibold"
+
+        android:textAlignment="center"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="16dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="7sp"
+        android:textColor="#eb2429"
+        android:textSize="14sp"
+        android:text="MY FAVOURITE SHOWS"
+        app:fontFamily="@font/poppins_semibold"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/fav"
+        android:layout_marginTop="30dp">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+
+            android:dividerHeight="10dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

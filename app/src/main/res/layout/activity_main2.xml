@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="16dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="7sp"
+        android:textColor="#eb2429"
+        android:textSize="14sp"
+        android:text="ABOUT"
+        app:fontFamily="@font/poppins_semibold"/>
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#9babcb"
+        android:layout_below="@id/about"
+        android:lineSpacingExtra="8sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginRight="51dp"
+        android:text="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+        />
+    <TextView
+       android:layout_marginTop="40dp"
+        android:layout_below="@id/abt"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#666884"
+        android:lineSpacingExtra="12sp"
+        android:gravity="center_horizontal"
+        tools:text="Version 1.0"
+        />
+</RelativeLayout>
