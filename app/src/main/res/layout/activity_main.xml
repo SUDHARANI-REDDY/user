@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+    android:layout_width="20dp"
+    android:layout_height="16dp"
+
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="33dp"
+    android:background="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="7sp"
+        android:textColor="#eb2429"
+        android:textSize="14sp"
+        android:text="PROFILE"
+        app:fontFamily="@font/poppins_semibold"/>
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:lineSpacingExtra="8sp"
+        android:textColor="#666884"
+        android:textSize="18sp"
+        app:fontFamily="@font/poppins_semibold"
+        android:text="Dhruva Kashyap" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:lineSpacingExtra="12sp"
+        android:textColor="#666884"
+        android:textSize="14sp"
+        app:fontFamily="@font/poppins_semibold"
+        android:text="dhruvakashyap@naada.com" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/email"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:weightSum="5"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:lineSpacingExtra="12sp"
+                android:textColor="#666884"
+                android:textSize="26sp"
+                app:fontFamily="@font/poppins_semibold"
+                android:text="756" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:lineSpacingExtra="12sp"
+                android:textColor="#666884"
+                android:textSize="14sp"
+                android:text="Rank"
+                app:fontFamily="@font/poppins"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="12sp"
+            android:textColor="#666884"
+            android:textSize="14sp"
+            app:fontFamily="@font/poppins_semibold"
+            android:text="See leaderboard" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/onne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="4.5"
+            android:lineSpacingExtra="12sp"
+            android:textColor="#666884"
+            android:textSize="14sp"
+            app:fontFamily="@font/poppins_semibold"
+            android:text="My favorite shows" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_right_arrow"
+
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onne"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="4.6"
+            android:lineSpacingExtra="12sp"
+            android:textColor="#666884"
+            android:textSize="14sp"
+            app:fontFamily="@font/poppins_semibold"
+            android:text="My genre" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_right_arrow"
+
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="4.6"
+            android:lineSpacingExtra="12sp"
+            android:textColor="#666884"
+            android:textSize="14sp"
+            app:fontFamily="@font/poppins_semibold"
+            android:text="About" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_right_arrow"
+
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#666884"
+        android:lineSpacingExtra="12sp"
+        android:text="Version 1.0"
+        android:layout_below="@+id/three"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        app:fontFamily="@font/poppins"
+        />
+</RelativeLayout>
